@@ -8,5 +8,5 @@ symlink_clean:
 	rm -rf ~/.zsh
 	rm ~/.zshrc
 
-install_nvm:
-	curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+install_asdf:
+	git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.9.0
