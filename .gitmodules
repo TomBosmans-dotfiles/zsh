@@ -4,3 +4,7 @@
 [submodule "zsh/plugins/fzf-tab"]
 	path = zsh/plugins/fzf-tab
 	url = https://github.com/Aloxaf/fzf-tab.git
+[submodule "zsh/plugins/nix-zsh-completions"]
+	path = zsh/plugins/nix-zsh-completions
+	url = https://github.com/spwhitt/nix-zsh-completions.git
+	branch = master

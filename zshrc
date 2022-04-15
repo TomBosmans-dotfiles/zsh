@@ -3,6 +3,7 @@ source "${HOME}/.zsh/utils.zsh"
 
 add_plugin "Aloxaf/fzf-tab"
 add_plugin "zsh-users/zsh-syntax-highlighting"
+add_plugin "spwhitt/nix-zsh-completions"
 
 add_file "fzf.zsh"
 add_file "alias.zsh"
