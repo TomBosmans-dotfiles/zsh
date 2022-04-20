@@ -13,3 +13,5 @@ add_file "history.zsh"
 add_file "nvm.zsh"
 add_file "asdf.zsh"
 add_file "autocomplete.zsh"
+
+eval "$(direnv hook zsh)"

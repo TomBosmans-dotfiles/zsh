@@ -1,7 +1,20 @@
 #!/usr/bin/env zsh
 
+workspace() {
+  local git_path=$(git rev-parse --show-prefix)
+  if [ ! -z $git_path ]; then
+    echo -n "%F{red}$name%f %F{blue}$git_path%f"
+  else
+    echo -n "%F{red}$name%f"
+  fi
+}
+
 working_dir() {
-  echo "%F{blue}%~%f"
+  if [ ! -z $name ]; then
+    workspace
+  else
+    echo "%F{blue}%~%f"
+  fi
 }
 
 git_state() {
