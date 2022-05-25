@@ -12,4 +12,4 @@ add_file "prompt.zsh"
 add_file "history.zsh"
 add_file "autocomplete.zsh"
 
-eval "$(direnv hook zsh)"
+eval "$(zoxide init zsh)"
